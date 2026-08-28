@@ -1,4 +1,4 @@
-# Architecture — PromptGuard
+# Architecture PromptGuard
 
 > Fill in decisions as they're made in Phase 2. Structure below is a starting skeleton.
 
@@ -14,7 +14,7 @@
 
 Options, roughly in order of complexity:
 
-1. **Rules/regex-based** — fast, explainable, good for structured data (SSNs, credit cards, API key formats). Low compute cost. Weak on unstructured/contextual sensitive info.
+1. **Rules/regex-based** - fast, explainable, good for structured data (SSNs, credit cards, API key formats). Low compute cost. Weak on unstructured/contextual sensitive info.
 2. **Named Entity Recognition (NER) model** — better at catching names, addresses, contextual PII. Higher compute cost, needs a model (local or hosted).
 3. **Hybrid** — rules for high-confidence structured patterns + a lightweight NER/classifier for the rest.
 
