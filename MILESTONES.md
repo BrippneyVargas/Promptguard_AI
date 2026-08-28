@@ -1,10 +1,10 @@
-# PromptGuard — Development Milestones
+# PromptGuard Development Milestones
 
 This roadmap covers the full lifecycle: market research → design → build → test → launch → iterate. Check off items as they're completed and adjust dates as the project evolves.
 
 ---
 
-## Phase 0 — Market Research & Problem Validation
+## Phase 0  Market Research & Problem Validation
 **Goal:** Confirm the problem is real, sized, and worth building for.
 
 - [ ] Define target segments (individual users vs. company/IT buyers)
@@ -19,7 +19,7 @@ This roadmap covers the full lifecycle: market research → design → build →
 
 ---
 
-## Phase 1 — Product Definition
+## Phase 1 Product Definition
 **Goal:** Turn research into a concrete spec.
 
 - [ ] Define MVP scope (what sensitive data types are detected at launch: PII, API keys/secrets, financials, credentials, health data, etc.)
@@ -32,7 +32,7 @@ This roadmap covers the full lifecycle: market research → design → build →
 
 ---
 
-## Phase 2 — Architecture & Design
+## Phase 2 Architecture & Design
 **Goal:** Decide how it's built before writing code.
 
 - [ ] Choose detection approach (regex/rules engine, NER model, hybrid)
@@ -46,7 +46,7 @@ This roadmap covers the full lifecycle: market research → design → build →
 
 ---
 
-## Phase 3 — MVP Build
+## Phase 3  MVP Build
 **Goal:** Working prototype that detects and blocks/redacts sensitive data.
 
 - [x] Set up repo scaffolding, CI (GitHub Actions runs `npm test` on push/PR)
@@ -62,7 +62,7 @@ This roadmap covers the full lifecycle: market research → design → build →
 
 ---
 
-## Phase 4 — Testing & Validation
+## Phase 4  Testing & Validation
 **Goal:** Make sure it actually works and doesn't get in the way.
 
 - [ ] Unit tests for detection engine (per data-type category)
@@ -76,7 +76,7 @@ This roadmap covers the full lifecycle: market research → design → build →
 
 ---
 
-## Phase 5 — Beta Release
+## Phase 5 Beta Release
 **Goal:** Get it in front of real users before public launch.
 
 - [ ] Recruit beta testers (mix of individuals + at least one team/company if enterprise wedge)
@@ -89,7 +89,7 @@ This roadmap covers the full lifecycle: market research → design → build →
 
 ---
 
-## Phase 6 — Public Launch
+## Phase 6 Public Launch
 **Goal:** Ship it.
 
 - [ ] Finalize pricing/model if applicable (free, freemium, enterprise tier)
@@ -102,7 +102,7 @@ This roadmap covers the full lifecycle: market research → design → build →
 
 ---
 
-## Phase 7 — Post-Launch Iteration
+## Phase 7 Post-Launch Iteration
 **Goal:** Keep improving based on real usage.
 
 - [ ] Monitor detection accuracy in production, expand data-type coverage
