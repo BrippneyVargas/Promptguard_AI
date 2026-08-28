@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PromptGuard</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="pg-popup">
+    <div class="pg-popup-header">
+      <span class="pg-popup-logo">🛡️</span>
+      <h1>PromptGuard</h1>
+    </div>
+    <p class="pg-popup-desc">
+      Scans your prompts for sensitive data (SSNs, card numbers, API keys, etc.)
+      before you send them to a chatbot — entirely on your device.
+    </p>
+    <label class="pg-toggle">
+      <input type="checkbox" id="enabled-toggle" />
+      <span>Protection enabled</span>
+    </label>
+    <p class="pg-popup-footer">Detection happens locally. Nothing is sent off your device.</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

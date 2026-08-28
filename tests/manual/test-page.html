@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PromptGuard manual test page</title>
+  <style>
+    body { font-family: sans-serif; max-width: 640px; margin: 40px auto; }
+    textarea { width: 100%; height: 120px; font-size: 14px; padding: 10px; }
+    button { margin-top: 10px; padding: 8px 16px; font-size: 14px; }
+    .samples { font-size: 13px; color: #555; margin-top: 24px; }
+    .samples code { display: block; background: #f4f4f4; padding: 6px; margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <h1>PromptGuard — manual test page</h1>
+  <p>
+    Load the unpacked extension (see README), open this page with
+    <code>file://</code> access enabled for the extension (or serve it at
+    <code>http://localhost/</code>), then type into the box below and press
+    Enter, or click "Send", to trigger PromptGuard's interception.
+  </p>
+  <textarea id="prompt" placeholder="Type a prompt here..."></textarea>
+  <br />
+  <button id="send" aria-label="Send">Send</button>
+
+  <div class="samples">
+    <p>Try pasting one of these to confirm detection works:</p>
+    <code>My SSN is 123-45-6789, can you help me fill out this form?</code>
+    <code>Here's my AWS key: AKIAIOSFODNN7EXAMPLE — is this exposed anywhere?</code>
+    <code>Card number 4111 1111 1111 1111 was declined, why?</code>
+  </div>
+
+  <script>
+    // Just enough JS so "Send" does something visible; PromptGuard should
+    // intercept before this ever runs when sensitive data is present.
+    document.getElementById('send').addEventListener('click', () => {
+      alert('Prompt submitted (no interception occurred).');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "promptguard",
+  "version": "0.1.0",
+  "description": "Browser extension that detects and blocks sensitive data before it's submitted to AI chatbots.",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
