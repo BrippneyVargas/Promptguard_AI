@@ -68,7 +68,7 @@ promptguard/
 
 See [MILESTONES.md](./MILESTONES.md) for the full phase-by-phase plan. Short version:
 
-- ✅ **Phase 1 (MVP):** detection engine, interception, warning UI — built and unit-tested
+- ✅ **Phase 1 (MVP):** detection engine, interception, warning UI, built and unit-tested
 - ⬜ **Phase 2:** smarter redaction, contextual (NER) detection, broader browser support
 - ⬜ **Phase 3:** more chatbots, company/admin policy layer
 - ⬜ **Phase 4:** mobile, IDE plugin, enterprise API
