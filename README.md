@@ -75,7 +75,7 @@ See [MILESTONES.md](./MILESTONES.md) for the full phase-by-phase plan. Short ver
 
 ## Contributing
 
-Issues and PRs welcome — see the issue templates under `.github/ISSUE_TEMPLATE/`. This is an early-stage project, so expect the interception heuristics in particular to need real-world tuning against live chatbot DOMs.
+Issues and PRs welcome, see the issue templates under `.github/ISSUE_TEMPLATE/`. This is an early-stage project, so expect the interception heuristics in particular to need real-world tuning against live chatbot DOMs.
 
 ## License
 
