@@ -1,6 +1,6 @@
 # 🛡️ PromptGuard
 
-**A local, real-time privacy shield for AI chatbots.** PromptGuard scans your prompts *before* you hit send — flagging passwords, SSNs, card numbers, API keys, and other sensitive data — so you don't accidentally hand it to ChatGPT, Claude, or Gemini.
+**A local, real-time privacy shield for AI chatbots.** PromptGuard scans your prompts *before* you hit send; flagging passwords, SSNs, card numbers, API keys, and other sensitive data — so you don't accidentally hand it to ChatGPT, Claude, or Gemini.
 
 [![Tests](https://github.com/OWNER/promptguard/actions/workflows/test.yml/badge.svg)](https://github.com/OWNER/promptguard/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
@@ -11,21 +11,21 @@
 
 ## Why
 
-People paste sensitive data into AI chatbots every day without realizing where it goes — customer records, credentials, financials, source code, personal information. Once it's sent, it may be logged, retained, or used for training, and there's no undo. Existing options don't fill the gap: enterprise DLP tools cost thousands a month and need an IT team, general browser-security extensions are blind to what you type into a chat box, and "be careful" blog posts aren't a product.
+People paste sensitive data into AI chatbots every day without realizing where it goes; customer records, credentials, financials, source code, personal information. Once it's sent, it may be logged, retained, or used for training, and there's no undo. Existing options don't fill the gap: enterprise DLP tools cost thousands a month and need an IT team, general browser-security extensions are blind to what you type into a chat box, and "be careful" blog posts aren't a product.
 
 PromptGuard is a free, open-source browser extension that catches this **before** it happens — entirely on your device.
 
 ## Features
 
-- 🔍 **Pre-send scanning** — detects SSNs, credit card numbers (Luhn-validated), emails, phone numbers, and API keys/secrets (AWS, OpenAI, Anthropic, GitHub, Slack, private key blocks)
-- ✏️ **Redact & send** — swap flagged text for `[REDACTED:TYPE]` and send safely instead of canceling outright
-- 🧠 **Plain-English warnings** — see exactly what was flagged and why, then decide: cancel, redact, or send anyway
-- 🔒 **100% local** — detection runs entirely in your browser; nothing is transmitted or logged anywhere
-- 🌐 **Works across chatbots** — ChatGPT, Claude, and Gemini out of the box; easy to extend to more
+- **Pre-send scanning** — detects SSNs, credit card numbers (Luhn-validated), emails, phone numbers, and API keys/secrets (AWS, OpenAI, Anthropic, GitHub, Slack, private key blocks)
+- **Redact & send** — swap flagged text for `[REDACTED:TYPE]` and send safely instead of canceling outright
+- **Plain-English warnings** — see exactly what was flagged and why, then decide: cancel, redact, or send anyway
+- **100% local** — detection runs entirely in your browser; nothing is transmitted or logged anywhere
+- **Works across chatbots** — ChatGPT, Claude, and Gemini out of the box; easy to extend to more
 
 ## Screenshot
 
-*(Add a screenshot or short GIF of the warning modal here once you have one — it's the single highest-impact thing you can add to this README.)*
+
 
 ## Installation
 
