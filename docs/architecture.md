@@ -1,6 +1,5 @@
 # Architecture PromptGuard
 
-> Fill in decisions as they're made in Phase 2. Structure below is a starting skeleton.
 
 ## Deployment Options (choose one or combine)
 
