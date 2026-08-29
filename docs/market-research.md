@@ -6,7 +6,7 @@ All figures below are sourced from named reports, not aggregator blog posts, so 
 
 | Stat | Source |
 |---|---|
-| 34.8% of corporate data employees put into AI tools is now sensitive — up from 10.7% two years earlier | Cyberhaven, 2025 (cited across multiple 2026 reports) |
+| 34.8% of corporate data employees put into AI tools is now sensitive; up from 10.7% two years earlier | Cyberhaven, 2025 (cited across multiple 2026 reports) |
 | 45% of enterprise employees now use generative AI tools; 77% of those users paste data into chatbot queries | LayerX, *Enterprise AI and SaaS Data Security Report 2025* |
 | 82% of those pastes come from personal, unmanaged accounts — outside any company's visibility or control | LayerX, 2025 |
 | ~22% of copy/paste operations into GenAI tools include PII or payment card data | LayerX, 2025 |
@@ -15,7 +15,7 @@ All figures below are sourced from named reports, not aggregator blog posts, so 
 | 26.4% of all file uploads to GenAI tools contain sensitive data (up from 22% the prior quarter) | Harmonic Security, analysis of 3M+ prompts/uploads across 300 GenAI tools, Jul–Sep 2025 |
 | Static/periodic IT audits typically discover shadow AI tools **400+ days** after employees started using them | Reco, 2025 |
 
-**Takeaway for the pitch:** this isn't a hypothetical risk — it's already large, growing quarter over quarter, and organizations are documented to be slow (over a year, on average) to even notice it's happening. That's exactly the gap a lightweight, always-on, real-time tool is positioned to close.
+**Takeaway for the pitch:** this isn't a hypothetical risk; it's already large, growing quarter over quarter, and organizations are documented to be slow (over a year, on average) to even notice it's happening. That's exactly the gap a lightweight, always-on, real-time tool is positioned to close.
 
 ## 2. The "Trust Problem" Working in AI Guardian's Favor
 
@@ -27,16 +27,16 @@ All figures below are sourced from named reports, not aggregator blog posts, so 
 
 ## 3. Competitive / Funding Landscape (signal that the category is real and investable)
 
-- **Harmonic Security** — founded Oct 2023, $26M+ raised total ($7M seed, $17.5M Series A led by Next47, Oct 2024). Delivered via browser extension, closest architectural analog to AI Guardian, but sold to enterprises via CISOs.
-- **Prompt Security** — founded 2023, acquired by SentinelOne in **August 2025 for an estimated $250–300M**. Strong signal: a major security vendor is willing to pay a nine-figure sum to own this exact problem space.
-- **Nightfall AI, Cyberhaven, Metomic** — established enterprise DLP vendors, all rated 4.5+/5 on G2, all priced as custom enterprise contracts with no self-serve or individual tier.
+- **Harmonic Security** : founded Oct 2023, $26M+ raised total ($7M seed, $17.5M Series A led by Next47, Oct 2024). Delivered via browser extension, closest architectural analog to AI Guardian, but sold to enterprises via CISOs.
+- **Prompt Security** : founded 2023, acquired by SentinelOne in **August 2025 for an estimated $250–300M**. Strong signal: a major security vendor is willing to pay a nine-figure sum to own this exact problem space.
+- **Nightfall AI, Cyberhaven, Metomic** : established enterprise DLP vendors, all rated 4.5+/5 on G2, all priced as custom enterprise contracts with no self-serve or individual tier.
 
-**Takeaway:** every player validating this market is B2B/enterprise-only. There is no credible, funded, free/individual-facing competitor — that's the specific gap in the "Originality" slide, and it's a defensible one, not just an assumption.
+**Takeaway:** every player validating this market is B2B/enterprise-only. There is no credible, funded, free/individual-facing competitor; that's the specific gap in the "Originality" slide, and it's a defensible one, not just an assumption.
 
 ## 4. Regulatory Tailwinds (for the "why now" framing)
 
 - Shadow AI incidents already carry measurable compliance cost exposure (the $670K premium above is a direct data point).
-- GDPR (EU), and in a US higher-ed/Fintech context specifically, FERPA and financial-data regulations create institutional pressure to prevent uncontrolled data flow to third-party AI tools — relevant framing given this project sits inside a Fintech department.
+- GDPR (EU), and in a US higher-ed/Fintech context specifically, FERPA and financial-data regulations create institutional pressure to prevent uncontrolled data flow to third-party AI tools; relevant framing given this project sits inside a Fintech department.
 
 ## 5. Sources (for citation/footnotes in the deck)
 
@@ -51,4 +51,3 @@ All figures below are sourced from named reports, not aggregator blog posts, so 
 
 ---
 
-*Note: I pulled these from named vendor/security-firm reports rather than aggregator blog posts, since those are the numbers that'll hold up if Rachel or anyone else asks "where's that from?" I did not use the "8M+ users tricked" figure from your current deck — see the competitive analysis doc for why, and what to swap it for.*
