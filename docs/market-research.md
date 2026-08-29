@@ -1,4 +1,4 @@
-# Market Research — AI Guardian (PromptGuard)
+# Market Research AI Guardian (PromptGuard)
 
 All figures below are sourced from named reports, not aggregator blog posts, so they're safe to cite directly to Rachel.
 
