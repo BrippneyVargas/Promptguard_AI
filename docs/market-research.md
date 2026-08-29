@@ -40,7 +40,7 @@ All figures below are sourced from named reports, not aggregator blog posts, so 
 
 ## 5. Sources (for citation/footnotes in the deck)
 
-- LayerX, *Enterprise AI and SaaS Data Security Report 2025* — reported via The Register, Oct 2025
+- LayerX, *Enterprise AI and SaaS Data Security Report 2025*; reported via The Register, Oct 2025
 - Cyberhaven Labs, ChatGPT data-paste research, updated through 2025
 - IBM, *Cost of a Data Breach* research, 2025
 - Harmonic Security, Q3 2025 GenAI upload analysis (BusinessWire)
