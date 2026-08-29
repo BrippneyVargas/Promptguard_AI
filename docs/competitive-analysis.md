@@ -1,30 +1,37 @@
-# Competitive Analysis — PromptGuard
+# Competitive Analysis AI Guardian (PromptGuard)
 
-> Fill in as you research each competitor. Categories below are a starting point based on the general DLP / AI-security landscape — verify current details for each before relying on them.
+## Landscape Overview
 
-## Adjacent Categories
+The "AI data leakage prevention" space splits into three tiers: enterprise DLP platforms (expensive, IT-managed), point solutions bundled into broader security suites, and a thin, mostly-empty layer of free, individual-facing tools. AI Guardian's opportunity sits in that last, largely unoccupied layer.
 
-1. **Traditional DLP (Data Loss Prevention)** — e.g., Microsoft Purview, Symantec DLP, Forcepoint
-   - Broad enterprise scope (email, endpoints, cloud apps), not built specifically for the prompt-box UX of AI chatbots
-2. **AI-specific security/governance tools** — e.g., Nightfall AI, Harmonic Security, Prompt Security, Lakera
-   - Closer competitors; typically enterprise-focused, sold to IT/security teams
-3. **Browser extensions for privacy** — general-purpose privacy/ad-blocking tools that aren't chatbot-specific
-4. **Built-in provider controls** — e.g., ChatGPT's "temporary chat" / data-control settings, enterprise data-handling agreements from OpenAI/Anthropic/Google
-   - Free, but require the user to know about and manually use them — no automatic detection
+## Direct & Adjacent Competitors
 
-## Comparison Table
+| Competitor | Category | Target | Pricing | Strengths | Weaknesses / Gap AI Guardian Exploits |
+|---|---|---|---|---|---|
+| **Nightfall AI** | Enterprise DLP | Large orgs, IT/security teams | Custom quote; G2 lists ~$4/feature/month as a low-end entry point, but real deployments run into the thousands/month | Strong ML-based detection across SaaS + cloud; established enterprise trust (4.6/5 on G2, 98 reviews) | Requires IT deployment and admin overhead; nothing for the individual, non-corporate user; no free tier |
+| **Cyberhaven** | Enterprise DLP | Large orgs | No public pricing (custom) | Deep data-lineage tracking, strong enterprise reviews (4.5/5, G2) | Same enterprise-only gap as Nightfall; heavier, more complex deployment |
+| **Harmonic Security** | Enterprise "zero-touch" AI data protection | Mid-market to enterprise, CISO-led | Custom quote; company has raised **$26M+ total** ($7M seed 2023, $17.5M Series A Oct 2024) | Delivered via a lightweight browser extension (closest architecture match to AI Guardian); monitors 1,000+ sites including embedded AI in Canva/Gamma/Notion; backed by well-known security operators (founders previously built Digital Shadows, sold for $160M) | Still B2B-only, CISO-sold, no self-serve individual product; validates that "browser extension as the interception point" is the right technical bet |
+| **Metomic** | DLP / SaaS security | Mid-market teams | Custom quote (no public tier) | Well-regarded UX, strong reviews (4.6/5, G2) | Same enterprise/team-only positioning |
+| **Prompt Security** | AI governance platform | Enterprise (healthcare, finance) | Custom (acquired by SentinelOne, Aug 2025, at $250–300M valuation) | Broad coverage: employee use, AI code assistants, agentic AI, homegrown apps | Acquisition signals the *category* is being consolidated into big security suites — reinforces that a lightweight, independent, individual-first tool is a distinct (and currently open) lane |
+| **Generic browser security extensions (e.g., Avast, Malwarebytes browser guard)** | Consumer browser security | Individual consumers | Free / freemium | Massive install base, trusted brand | Protect against malicious *sites*, not against what a user *types into* a legitimate chatbot — functionally blind to this problem entirely |
+| **Fake "AI privacy" extensions** | N/A:  malicious | Individual consumers | Free (malicious) | N/A | Actively harmful category (see Data Correction below); creates a trust gap AI Guardian can close by being genuinely open source and verifiable |
 
-| Tool | Target Buyer | Deployment | Detects Before Submission? | Notes |
-|---|---|---|---|---|
-| [ ] | | | | |
-| [ ] | | | | |
-| [ ] | | | | |
+## Data Correction Needed Before Presenting
 
-## Gaps PromptGuard Could Fill
+Slide 3 of the current deck states **"8M+ users tricked"** by fake AI-privacy extensions claiming to protect data while actually stealing it. Real reporting doesn't support that figure — the actual documented incidents are:
 
-- **[ ] To validate:** lightweight, consumer-friendly tool that works at the point of typing (not after-the-fact monitoring)
-- **[ ] To validate:** works across multiple chatbots rather than being tied to one enterprise AI platform
-- **[ ] To validate:** low setup friction — no IT deployment required for individual/small-team use
+- **LayerX (Feb 2026):** 30 fake AI-themed Chrome extensions, ~260,000–300,000 downloads combined, exfiltrating page content, Gmail data, and browsing activity.
+- **OX Security (Dec 2025):** ~900,000 downloads across two malicious extensions impersonating a real AI sidebar tool, stealing AI chat conversations.
+- **Koi Security ("RedDirection," 2025):** 2.3M users affected across 18 hijacked extensions (broader spying campaign, not AI-specific).
+- **Urban VPN Proxy (Koi Security, July 2025):** ~7.3M combined installs (Chrome + Edge) turned into an AI-prompt harvester via a malicious update — this is the one case that could plausibly support a multi-million figure, but it's a single VPN extension repurposed for AI harvesting, not "8M+ users tricked by fake AI privacy extensions" as a category.
+
+
+## Where AI Guardian Actually Differentiates
+
+1. **Individual-first, not IT-first.** Every direct competitor above sells to a CISO or IT admin. Nobody is shipping a free, self-install tool for the individual employee or consumer, this is the real white space, not "better detection."
+2. **Local-only processing as a trust story.** Given the fake-extension epidemic above, "100% local, open source, verifiable" is a genuine differentiator and directly defuses the trust problem the market just created for itself.
+3. **Cross-platform coverage in one lightweight tool.** Harmonic covers 1,000+ sites but is enterprise-sold; nothing free covers ChatGPT + Claude + Gemini + Copilot in one place for an individual.
+4. **Realistic weakness to plan for:** regex/pattern-based detection (your current approach) will have a lower detection ceiling than the ML-based engines Nightfall/Cyberhaven/Harmonic use. That's an acceptable MVP tradeoff, but Rachel or David may ask about it — worth having a one-line answer ready (e.g., "Phase 2 roadmap adds a local NER model for unstructured PII without sending data off-device").
 
 ## Risks
 
