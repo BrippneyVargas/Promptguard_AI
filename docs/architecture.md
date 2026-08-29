@@ -1,7 +1,7 @@
 # Architecture PromptGuard
 
 
-## Deployment Options (choose one or combine)
+## Deployment Options 
 
 1. **Browser extension**:  content script intercepts the prompt textbox on supported chatbot sites before submission
 2. **API/proxy middleware**: for teams calling AI APIs programmatically, PromptGuard sits between the app and the provider's API
@@ -19,7 +19,7 @@ Options, roughly in order of complexity:
 
 **[ ] Decision:** _____
 
-## Data Flow (draft — must preserve privacy by design)
+## Data Flow
 
 ```
 User types prompt
