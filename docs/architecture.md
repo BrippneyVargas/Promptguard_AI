@@ -39,7 +39,7 @@ User types prompt
 
 Recommended starting stack for MVP, with a lower-effort path and an alternative if requirements grow. Revisit once Phase 0/1 decisions (consumer vs. enterprise wedge, deployment form factor) are locked in.
 
-### Browser Extension (front line — where prompts are intercepted)
+### Browser Extension (front line, where prompts are intercepted)
 - **Manifest V3 (Chrome/Edge/Brave)**: content script injected into supported chatbot pages (chat.openai.com, claude.ai, gemini.google.com) to read the prompt box before submission
 - **Plain JavaScript or TypeScript** for the extension itself; TypeScript recommended once the codebase grows past a few files, for safer refactoring
 - **No framework needed for v1**: the UI surface (a warning banner/modal) is small enough for vanilla JS + CSS; avoid React/Vue overhead unless the popup/options page grows complex
@@ -54,7 +54,7 @@ Recommended starting stack for MVP, with a lower-effort path and an alternative 
 - **spaCy** (lightweight, runs well locally, good off-the-shelf NER) as the first choice over heavier LLM-based extraction; cheaper, faster, easier to explain to users why something was flagged
 - Served via a small **FastAPI** service if server-side scanning becomes necessary — but treat this as a fallback only for cases regex can't handle, since sending prompt text to any server (even your own) weakens the "stays on-device" privacy story. On-device options if this matters: compile a small NER model to run in-browser via **transformers.js** or **ONNX Runtime Web**.
 
-### Enterprise Dashboard (only if pursuing the enterprise wedge — Phase 6+)
+### Enterprise Dashboard (only if pursuing the enterprise wedge, Phase 6+)
 - **Backend:** Python + FastAPI (matches your background) or Node.js + Express if you want one language across extension and backend
 - **Database:** PostgreSQL for policy config and aggregate audit metadata (counts/categories only; never raw flagged content)
 - **Frontend:** a simple React app is reasonable here since it's a real dashboard, not just a warning popup
