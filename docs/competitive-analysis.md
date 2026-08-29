@@ -29,7 +29,7 @@ The "AI data leakage prevention" space splits into three tiers: enterprise DLP p
 1. **Individual-first, not IT-first.** Every direct competitor above sells to a CISO or IT admin. Nobody is shipping a free, self-install tool for the individual employee or consumer, this is the real white space, not "better detection."
 2. **Local-only processing as a trust story.** Given the fake-extension epidemic above, "100% local, open source, verifiable" is a genuine differentiator and directly defuses the trust problem the market just created for itself.
 3. **Cross-platform coverage in one lightweight tool.** Harmonic covers 1,000+ sites but is enterprise-sold; nothing free covers ChatGPT + Claude + Gemini + Copilot in one place for an individual.
-4. **Realistic weakness to plan for:** regex/pattern-based detection (your current approach) will have a lower detection ceiling than the ML-based engines Nightfall/Cyberhaven/Harmonic use. That's an acceptable MVP tradeoff, but Rachel or David may ask about it — worth having a one-line answer ready (e.g., "Phase 2 roadmap adds a local NER model for unstructured PII without sending data off-device").
+
 
 ## Risks
 
