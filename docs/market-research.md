@@ -19,11 +19,11 @@ All figures below are sourced from named reports, not aggregator blog posts, so 
 
 ## 2. The "Trust Problem" Working in AI Guardian's Favor
 
-- LayerX (Feb 2026) documented **30 fake AI-themed Chrome extensions** with a combined ~260,000–300,000 downloads, secretly exfiltrating page content, Gmail messages, and browsing activity to attacker servers — while posing as legitimate AI assistant tools.
+- LayerX (Feb 2026) documented **30 fake AI-themed Chrome extensions** with a combined ~260,000–300,000 downloads, secretly exfiltrating page content, Gmail messages, and browsing activity to attacker servers; while posing as legitimate AI assistant tools.
 - OX Security (Dec 2025) found two extensions impersonating a real, popular AI sidebar tool that had stolen **~900,000 users'** actual AI chat conversations, including one that carried Google's "Featured" trust badge.
 - Koi Security (Jul 2025) found that **Urban VPN Proxy**, a legitimate extension with ~7.3M combined Chrome+Edge installs, was silently updated to harvest everything typed into ChatGPT, Claude, Copilot, DeepSeek, Gemini, Grok, Meta AI, and Perplexity.
 
-**Why this matters for the pitch:** the market has just been burned by exactly the kind of tool AI Guardian claims to be. That makes "open source, 100% local processing, nothing ever leaves your device" a real, provable trust differentiator; not just a slogan — and it's a natural answer to "why would anyone trust a new extension?"
+**Why this matters for the pitch:** the market has just been burned by exactly the kind of tool AI Guardian claims to be. That makes "open source, 100% local processing, nothing ever leaves your device" a real, provable trust differentiator; not just a slogan; and it's a natural answer to "why would anyone trust a new extension?"
 
 ## 3. Competitive / Funding Landscape (signal that the category is real and investable)
 
